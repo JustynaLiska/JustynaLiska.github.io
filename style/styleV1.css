@@ -1,0 +1,1086 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .underline a {
+    font-size: 50px;
+    text-decoration: none;
+    position: relative;
+}
+.underline a:after {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+
+    border-width: 0 0 10px;
+    border-style: solid;
+} */
+
+
+::selection {
+    background: #6F00FF;
+}
+
+
+
+.BGvideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+a{
+    color: black; 
+}
+
+a:hover{
+    text-decoration: none; 
+    color: black;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.nav-bg-white{
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.bg-light {
+    background-color: rgba(255, 255, 255, 0) !important;
+    font-family: 'Roboto', sans-serif; 
+}                    /* NAVBARS - START */
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(0,0,0);
+    opacity: 0.5;
+    border-width: 2px;
+} 
+
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 50px 0px 0px;
+    font-size: 22px;
+}
+
+.nav-link:hover{
+    font-weight: 900;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0,0,0,.9);
+    font-weight: 900;
+}
+
+.nav-item1{
+    margin-right: 30px;
+}
+
+.closebtn {
+    visibility: hidden;
+    display: none;
+    position: absolute;
+    position: absolute;
+    color:rgba(255,255,255, 1);
+    top: 0px;
+    right: 30px;
+    font-size: 50px;
+}
+
+.navbar-brand{
+    margin: 20px 0px 0px 30px
+}
+
+.secondarynav{
+    transform: rotate(270deg);
+    z-index: 5;
+    position: fixed;
+    bottom: 0%;
+    transform-origin: left top; 
+    margin: 0px 0px 0px 40px;
+    padding: 0px;
+    color: rgba(255, 255, 255, 0) !important;
+}
+
+.SECndNAVspace{
+    margin-right: 5px;
+}
+
+.secondarynav:hover{
+    text-decoration: none;  
+}
+
+#navbartop{
+    position: fixed;
+}
+
+nav a{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+nav a:hover{
+    color: rgba(0, 0, 0, 1);
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+} 
+
+.longstriptop hr{
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.5);
+    margin-top: 0px;
+    margin-left: -50px;
+    width: 20%;
+}
+
+.longstripbot hr{
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.5);
+    margin-top: 13px;
+    margin-left: -90px;
+    width: 20%;
+}   
+
+.Justyna h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    
+}
+
+.Liska{
+    font-weight: 900;
+    margin-left: -7px;
+}
+
+/* NAVBARS - END */
+
+
+
+
+h1{
+    font-size: 192px;
+    font-weight: 900;
+    color: black;
+    z-index: 0; 
+    opacity: 0.85;
+    line-height: 165px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 27px;
+    margin: 0px 0px 0px 0px;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h5{
+    font-size: 36px;
+}
+
+h7{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+}
+
+p, li{
+    font-size: 18px;
+    line-height: 27px;
+    
+}
+
+li {
+    list-style: none;
+}
+
+hr{
+    display: block;
+    margin: -80px 0px 0px 0px;
+    border-width: 85px;
+    border-color: #8800FF;
+    width: 60%;
+    position: absolute;
+    z-index: -1;
+    mix-blend-mode: multiply ;
+}
+
+
+
+
+
+.loadingpage{
+    margin: 150px 0px -15px 0px;
+}                /* LOADING PAGE - START */
+
+.loadingpage hr{
+    margin-top: -400px;
+}             /* LOADING PAGE - END */
+
+
+
+.subtitle{
+    margin: 25px 0px 30px 0px;
+}            /* PROJECT LIST - START */
+
+.subtitle2{
+    margin: 25px 0px 30px 0px;
+}   
+
+.subtitle p{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.subtitleBB{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.hiddenimg{
+    visibility: hidden;
+    display: none;
+}
+
+#logo{
+    margin: 40px 0px 0px -100px;
+}
+
+.orangeborder{
+    line-height: 200px;
+}
+
+.jellybabyPL{
+    
+    margin: 150px 0px -15px 0px;
+}
+
+.jellybabyPL hr{
+    margin-top: -90px;
+}
+
+.imageBox{
+    position: fixed;
+    left: 45%;
+    height: auto;
+    width: 50%;
+    visibility: hidden;
+    border: none;
+    padding: 5px;
+    z-index: -3;
+    margin: 120px 0px 0px 0px;
+    padding: 10px;  
+} 
+
+.IBHR hr{
+    width: 72%;
+    margin-top: -90px;
+}            /* PROJECT LIST - END */
+
+
+
+.itsme{
+    margin-top: -400px; 
+}             /* ABOUT PAGE - START */
+
+.itsme hr{
+    width: 100%;
+    margin-top: -70px;
+}
+
+.itsme h1{
+    line-height: 130px;
+}
+
+.about{
+    position: absolute;
+    margin: -680px 0px 0px 280px;
+    z-index: -4;
+}
+
+.meimg {
+    margin-top: 107px;
+    margin-bottom: 50px;
+    z-index: -2;
+}
+
+.meimg img{
+    height: 630px;
+    left: 0px;
+}
+
+.smallHR{
+    position: relative;
+    margin-top: 473px;   
+}
+
+.resume a{
+    font-weight:700;
+}
+
+.MeDescription{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.Contact{
+    font-weight: bold;
+}
+
+.MeDescription a{
+    text-decoration: underline;
+}
+
+.MeDescription a:hover{
+    color: #8800FF !important;
+}
+
+.social1{ 
+    padding-left: 15px;
+    padding-top: 3px;
+    height: auto;
+    width: 50px;
+}
+
+.social2{
+    padding-left: 7px;
+    height: auto;
+    width: 50px;
+}             /* ABOUT PAGE - END */
+
+
+
+.JBp1{
+    position: absolute;
+    left: 45%;
+    height: auto;
+    width: 50%;
+    padding: 5px;
+    z-index: -3;
+    margin: 120px 0px 0px 0px;
+    padding: 10px;
+}              /* JELLY BABY PAGE - START */
+
+.jellybaby{
+    margin: 150px 0px 0px 0px;
+}
+
+.jellybaby hr{
+    margin-top: -98px;
+}
+
+.CAY{
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+
+.CAY li{
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+}
+
+.CAY p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+}
+
+.JBvideo{
+    padding: 40px 0px 40px 0px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.JBdescription{
+    margin-bottom: 30px;
+}
+
+.img-12{
+    margin-top: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#poster{
+    margin-top: 45px;
+}
+
+.JBposter img{
+    max-width: 100%;
+    height: auto;
+}
+
+.packaging{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.Production{
+    margin-top: 100px;
+}
+
+#carouselExampleIndicators{
+    margin-top: 20px;
+}
+
+.JBpackaging1 img{
+    max-width: 80%;
+    height: auto;
+    margin-left: 395px;
+}
+
+.JBpackaging2 img{
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#stills{
+    padding: 20px 0px 0px 0px;
+}
+
+.carousel-item {
+    height: 50vh;
+    min-height: 100px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 50px; 
+}      /* JELLY BABY PAGE - END */
+
+   
+
+.iadttitle2{
+    margin: 150px 0px 0px 0px;
+}          /* IADT MICROSITE */
+
+.iadttitle2 hr{
+    margin-top: -98px;
+}
+
+.iadttitle2 h1{
+    line-height: 165px;
+}
+
+.CAYIADT{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.CAYIADT li{
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+}
+
+.CAYIADT p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+}
+
+.IADTdescription{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.IADTvideo{
+    padding: 40px 0px 0px 0px;
+    margin-bottom: 50px;  
+}
+
+.IADTphonepic{
+    margin-bottom: 100px;
+}        /* IADT MICROSITE -END */
+
+.IBp1{
+    position: absolute;
+    left: 45%;
+    height: auto;
+    width: 45%;
+    padding: 5px;
+    z-index: -3;
+    margin: 80px 0px 0px 0px;
+    padding: 10px;
+}             /* IRISH BEEF - START */
+
+.IBstrip{
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+.IBlogo{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#myCarousel .carousel-item{
+    height: 70vh;
+    min-height: 100px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 30px; 
+}  
+
+.CAYIB{
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.CAYIB li{
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+}
+
+.CAYIB p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 27px;
+}
+
+.signages{
+    margin-bottom: 70px;
+}
+
+.booklet1{
+    margin-top: 10px; 
+    margin-bottom: 50px;
+}
+
+.materials{
+    margin-top: 50px;
+}
+
+.computer{
+    margin-top: 30px;
+}
+
+.exhibition{
+    margin-top: 27px;
+    margin-bottom: 10px;
+}
+
+.PreviousNext a:hover{
+    color: #8800FF !important;
+}
+
+.nextButton{
+    margin-top: 3px;
+    margin-bottom: 50px;
+}
+
+.nextButton p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.nextButton a{
+    color: black;
+}        /* IRISH BEEF - END */
+
+
+
+
+/*____________________________________MOBILE*/
+
+@media screen and (max-width: 450px) {
+    
+    .overlay {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #6F00FF;
+        overflow-y: hidden;
+        transition: 0.5s;
+    }
+    
+    .overlay a {
+        font-size: 60px;
+        line-height: 80px;
+        margin-left: 40px;
+    }
+    
+    .navbar-brand{
+        margin: 5px 0px 0px 0px
+    }   
+    
+    .custom-toggler.navbar-toggler {
+        position: absolute;
+        right: 25px;
+        top: 15px; 
+    } 
+    
+    .closebtn {
+        visibility:visible;
+        display:table;
+    }  
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(255,255,255, 1);
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color: rgba(255,255,255, 1);
+        font-weight: 900;
+    }
+    
+    .nav-link{
+        margin: 0px 50px 0px 0px;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .secondarynav{
+        visibility: hidden;
+        display: none;
+    }
+
+    .longstriptop{
+        visibility: none;
+        display: none;
+    }
+    
+    .navbar-nav{
+        flex-direction:column ;
+        
+    }
+    
+    .navbar{
+        margin-left: 10px;
+    }
+    
+    .navbar-nav{
+        margin-top: 50%;
+    }
+    
+    .nav-item{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .nav-item1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .nav-bg-white{
+        background-color: rgb(255,255,255);
+        background-color: rgba(255,255,255, 0.5);
+        margin-left: -5px;
+    }
+    
+    .Justyna h5{  
+        font-family: 'Roboto', sans-serif;
+        font-weight:100;
+    }
+
+    .Liska{
+        font-weight: 900;
+        margin-left: -8px;
+    }
+    
+    h5{
+        font-size: 30px;
+    }
+    
+    p, li, h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    h1{
+        font-size: 63px;
+        display: inline;
+    }
+    
+    hr{
+        display: block;
+        margin: -100px 0px 0px 0px;
+        border-width: 60px;
+        border-color: #8800FF;
+        width: 80%;
+        mix-blend-mode: normal;
+    }
+    
+    
+    /*  LOADING PAGE */
+    
+    .loadingpage{
+        margin: 110px 0px -15px 0px;
+    
+    }              
+
+    .loadingpage hr{
+        margin-top: -150px;
+    }  
+    
+    .loadingpage h1{
+        line-height: 60px;
+        
+    }
+    
+    .hiddenimg{
+        visibility:visible;
+        display:block;
+        margin-top: 70px;
+    }
+
+    /*  LOADING PAGE - END */
+    
+    
+    /*  PROJECTS LIST */
+    
+    .IADTtitle h1{
+        line-height: 60px;
+       margin-bottom: 100px;
+    }
+    
+    .IADTtitle hr{
+        margin-top: -35px;
+        margin-left: -20px;
+    }
+    
+    .jellybabyPL{
+        margin: 80px 0px 0px 0px;
+    }
+
+    .jellybabyPL hr{
+        margin-top: -90px;
+        margin-left: -20px;
+    }
+    
+    .IBHR{
+        margin-top: -40px;
+    }
+    
+    .IBHR hr{
+        margin-top: -90px;
+        margin-left: -20px;
+        width: 80%;
+    }
+    
+    .imageBox{
+        visibility: hidden;
+        display: none;
+    }
+    
+    .subtitle{
+        margin: -20px 0px 10px 0px;
+    }  
+    
+    .subtitle2{
+        margin: 35px 0px 10px 0px;
+    }  
+    
+    .subtitleBB{
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+    
+    /*  PROJECTS LIST - END */
+    
+    /*  ABOUT  */
+    
+    .meimg {
+        margin: 70px 0px 50px 0px;
+        z-index: -2;
+        padding: 0px;
+    }
+
+    .meimg img{
+        width: 414px;
+        height: auto;
+    }
+    
+    .itsme{
+        margin-top: -80px; 
+    }             
+
+    .itsme hr{
+        width: 90%;
+        margin-top: -45px;
+        margin-left: -15px
+    }
+
+    .itsme h1{
+        line-height: 50px;
+    }
+    
+    .smallHR{
+        visibility: hidden;
+        display: none;
+    }
+    
+    .MeDescription{
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    
+    .social1{ 
+        padding-left: 15px;
+        padding-top: 3px;
+        height: auto;
+        width: 66px;
+        margin-right: 5px;
+    }
+
+    .social2{
+        padding-left: 7px;
+        height: auto;
+        width: 70px;
+        margin-bottom: 30px;
+    } 
+    
+    /*  ABOUT -END  */
+    
+    
+    /* JELLY BABY */
+    
+    .JBp1{
+        margin-top: 70px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100%;
+        padding: 0px;
+    }
+    
+    .jellybaby{
+        margin: 200px 0px 0px 0px;
+    }
+
+    .jellybaby hr{
+        margin-top: -100px;
+        margin-left: -20px;
+    }
+    
+    .CAY{
+        position: inherit;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .CAY li{
+        line-height: 24px;
+    }
+
+    .CAY p{
+        line-height: 24px;
+    }
+    
+    .JBdescription{
+        margin-bottom: 0px;
+    }    
+    
+    iframe{
+        width: 300px;
+        height: auto;
+        margin-bottom: 0px;
+    }  
+    
+    .JBvideo{
+        padding: 20px 0px 20px 0px;
+        margin-bottom: 30px;
+    }
+    
+    .JBpackaging1 img{
+        max-width: 90%;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .JBpackaging2 img{
+        max-width: 90%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+  
+    .JBposter{
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    
+    #poster{
+        margin-top: 0px;
+    }
+    
+    .packaging{
+        margin-top: 15px;
+        margin-bottom: 0px;
+    }
+    
+    #carouselExampleIndicators{
+        margin-top: 0px;
+    }
+    
+    .carousel-item{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .carousel-control-prev-icon{
+       margin-top: -30px;
+    }
+    
+    .carousel-control-next-icon{
+        margin-top: -30px;
+    }
+    
+    .Production{
+        margin-top: 0px;
+    }
+    
+    /* JELLY BABY - END */
+    
+    
+    /* IADT MICROSITE */
+    
+    .iadttitle2{
+        margin: 230px 0px 40px 0px;
+    }
+    
+    .iadttitle2 hr{
+        margin-left: -15px;
+    }
+    
+    .iadttitle2 h1{
+        line-height: 60px;
+    }
+    
+    .CAYIADT p{
+        line-height: 24px;
+    }
+    
+    .IADTvideo iframe{
+        width: 414px;
+        height: 300px;
+        margin: -20px 0px 0px 0px;
+    }
+    
+    .IADTphonepic{
+       left: 50%;
+        transform: translate(-50%, 0%);
+        margin-bottom: 15px;
+    }
+    
+    .IADTdescription{
+        margin-top: 0px;
+    }
+    
+    /* IADT MICROSITE - END */
+    
+    
+    /* IRISH BEEF */
+    
+    .IBp1{
+        margin-top: 60px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: 100%;
+        padding: 0px;
+    }
+    
+   .IBstrip{
+        margin-bottom: 20px;
+       margin-top: 10px;
+    }
+    
+    .materials{
+        margin-top: 20px;
+    }
+    
+    .grocerybag{
+        margin-bottom: 20px;
+    }
+
+    .computer{
+        margin-top: 20px;
+    }
+    
+    .booklet1{ 
+        margin-bottom: 30px;
+    }
+    
+    .exhibition{
+        margin-top: 0px;
+    }
+    
+    #myCarousel .carousel-item{
+        height: 35vh;
+    }  
+    
+    .signages{
+        margin-bottom: 15px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    
+    .CAYIB{
+        position: inherit;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .CAYIB li{
+        line-height: 24px;
+    }
+
+    .CAYIB p{
+        line-height: 24px;
+    }
+    
+    
+    /* IRISH BEEF - END */
+    
+    
+    .nextButton{
+        visibility: hidden;
+        clear: both;
+        float: left;
+        margin: 10px auto 5px 20px;
+        display: none;
+    }
+    
+    .arrow{
+        margin: 0px 280px 20px 20px;
+    }
+    
+    .arrow2{
+        margin: 0px 0px 0px 20px;
+    }
+   
+ 
+    
+    
+}
+    
+    
+    
+    
+
+
+
