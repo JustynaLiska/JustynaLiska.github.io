@@ -97,7 +97,7 @@ a:hover{
 }
 
 .navbar-brand{
-    margin: 20px 0px 0px 30px
+    margin: 10px 0px 0px 30px
 }
 
 .secondarynav{
@@ -160,7 +160,7 @@ nav ul li{
 
 .Liska{
     font-weight: 900;
-    margin-left: -7px;
+    margin-left: -4px;
 }
 
 /* NAVBARS - END */
@@ -174,7 +174,7 @@ h1{
     color: black;
     z-index: 0; 
     opacity: 0.85;
-    line-height: 165px;
+    line-height: 200px;
 }
 
 h3{
@@ -191,7 +191,7 @@ h4{
 }
 
 h5{
-    font-size: 36px;
+    font-size: 24px;
 }
 
 h7{
@@ -223,20 +223,22 @@ hr{
 
 
 
-
+.hi{
+    margin: 140px 0px 0px 15px
+}
 
 .loadingpage{
-    margin: 150px 0px -15px 0px;
+    margin: 0px 0px -15px 0px;
 }                /* LOADING PAGE - START */
 
 .loadingpage hr{
-    margin-top: -400px;
+    margin-top: 100px;
 }             /* LOADING PAGE - END */
 
 
 
 .subtitle{
-    margin: 25px 0px 30px 0px;
+    margin: 18px 0px 30px 0px;
 }            /* PROJECT LIST - START */
 
 .subtitle2{
@@ -266,10 +268,17 @@ hr{
     line-height: 200px;
 }
 
-.jellybabyPL{
-    
+.FirstProj{
     margin: 150px 0px -15px 0px;
 }
+
+.FirstProj hr{
+    margin-top: -90px;
+}
+
+/* .jellybabyPL{
+    margin: 150px 0px -15px 0px;
+} */
 
 .jellybabyPL hr{
     margin-top: -90px;
@@ -366,6 +375,19 @@ hr{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .JBp1{
     position: absolute;
     left: 45%;
@@ -430,6 +452,7 @@ hr{
 .packaging{
     margin-top: 30px;
     margin-bottom: 10px;
+    padding-right: 100px;
 }
 
 .Production{
@@ -508,6 +531,7 @@ hr{
 
 .IADTphonepic{
     margin-bottom: 100px;
+    margin-top: 60px;
 }        /* IADT MICROSITE -END */
 
 .IBp1{
@@ -524,11 +548,12 @@ hr{
 .IBstrip{
     padding: 0px;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 .IBlogo{
     margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 #myCarousel .carousel-item{
@@ -567,7 +592,8 @@ hr{
 }
 
 .materials{
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 
 .computer{
@@ -576,7 +602,7 @@ hr{
 
 .exhibition{
     margin-top: 27px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .PreviousNext a:hover{
@@ -584,20 +610,19 @@ hr{
 }
 
 .nextButton{
-    margin-top: 3px;
+    margin-top: -3px;
     margin-bottom: 50px;
 }
 
 .nextButton p{
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 900;
 }
 
 .nextButton a{
     color: black;
 }        /* IRISH BEEF - END */
-
 
 
 
@@ -699,7 +724,7 @@ hr{
 
     .Liska{
         font-weight: 900;
-        margin-left: -8px;
+        margin-left: 0px;
     }
     
     h5{
@@ -760,6 +785,15 @@ hr{
     
     .IADTtitle hr{
         margin-top: -35px;
+        margin-left: -20px;
+    }
+    
+    .FirstProj{
+        margin: 80px 0px 0px 0px;
+    }
+
+    .FirstProj hr{
+        margin-top: -90px;
         margin-left: -20px;
     }
     
