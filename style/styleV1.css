@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -19,7 +19,6 @@ body{
     border-style: solid;
 } */
 
-
 ::selection {
     background: #6F00FF;
 }
@@ -37,51 +36,56 @@ body{
     height: auto;
 }
 
-a{
-    color: black; 
-}
-
-a:hover{
-    text-decoration: none; 
+a {
     color: black;
 }
 
-.container-fluid{
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.container-fluid {
     padding: 0px;
 }
 
-.nav-bg-white{
-    background-color: rgb(255,255,255);
-    background-color: rgba(255,255,255, 0.5);
+.nav-bg-white {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .bg-light {
     background-color: rgba(255, 255, 255, 0) !important;
-    font-family: 'Roboto', sans-serif; 
-}                    /* NAVBARS - START */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBARS - START */
 
 .custom-toggler.navbar-toggler {
-    border-color: rgb(0,0,0);
+    border-color: rgb(0, 0, 0);
     opacity: 0.5;
-    border-width: 2px;
-} 
+    border-width: 0px;
+}
 
-.nav-link{
+.nav-link {
     font-family: 'Roboto', sans-serif;
     margin: 0px 50px 0px 0px;
     font-size: 22px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     font-weight: 900;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgba(0,0,0,.9);
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(0, 0, 0, .9);
     font-weight: 900;
 }
 
-.nav-item1{
+.nav-item1 {
     margin-right: 30px;
 }
 
@@ -90,94 +94,100 @@ a:hover{
     display: none;
     position: absolute;
     position: absolute;
-    color:rgba(255,255,255, 1);
+    color: rgba(255, 255, 255, 1);
     top: 0px;
     right: 30px;
     font-size: 50px;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin: 10px 0px 0px 30px
 }
 
-.secondarynav{
+.secondarynav {
     transform: rotate(270deg);
     z-index: 5;
     position: fixed;
     bottom: 0%;
-    transform-origin: left top; 
+    transform-origin: left top;
     margin: 0px 0px 0px 40px;
     padding: 0px;
     color: rgba(255, 255, 255, 0) !important;
 }
 
-.SECndNAVspace{
+.SECndNAVspace {
     margin-right: 5px;
 }
 
-.secondarynav:hover{
-    text-decoration: none;  
+.secondarynav:hover {
+    text-decoration: none;
 }
 
-#navbartop{
+#navbartop {
     position: fixed;
 }
 
-nav a{
+nav a {
     color: rgba(0, 0, 0, 0.5);
 }
 
-nav a:hover{
+nav a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     margin: 0px 10px 0px 0px;
-} 
+}
 
-.longstriptop hr{
+.longstriptop hr {
     border-width: 1px;
-    border-color: rgba(0,0,0,0.5);
+    border-color: rgba(0, 0, 0, 0.5);
     margin-top: 0px;
     margin-left: -50px;
     width: 20%;
 }
 
-.longstripbot hr{
+.longstripbot hr {
     border-width: 1px;
-    border-color: rgba(0,0,0,0.5);
+    border-color: rgba(0, 0, 0, 0.5);
     margin-top: 13px;
     margin-left: -90px;
     width: 20%;
-}   
-
-.Justyna h5{
-    font-family: 'Roboto', sans-serif;
-    font-weight:100;
-    
 }
 
-.Liska{
+.Justyna h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+}
+
+.Liska {
     font-weight: 900;
     margin-left: -4px;
 }
 
 /* NAVBARS - END */
 
-
-
-
-h1{
+h1 {
     font-size: 192px;
     font-weight: 900;
     color: black;
-    z-index: 0; 
+    z-index: 0;
     opacity: 0.85;
     line-height: 200px;
 }
 
-h3{
+h2 {
+    font-size: 100px;
+    font-weight: 900;
+    color: black;
+    z-index: 0;
+    opacity: 0.85;
+    line-height: 120px;
+}
+
+h3 {
     font-size: 18px;
     font-weight: 900;
     font-style: italic;
@@ -185,32 +195,33 @@ h3{
     margin: 0px 0px 0px 0px;
 }
 
-h4{
+h4 {
     font-size: 18px;
     font-weight: 700;
 }
 
-h5{
+h5 {
     font-size: 24px;
 }
 
-h7{
+h7 {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     display: inline-block;
 }
 
-p, li{
+p,
+li {
     font-size: 18px;
     line-height: 27px;
-    
+
 }
 
 li {
     list-style: none;
 }
 
-hr{
+hr {
     display: block;
     margin: -80px 0px 0px 0px;
     border-width: 85px;
@@ -218,53 +229,58 @@ hr{
     width: 60%;
     position: absolute;
     z-index: -1;
-    mix-blend-mode: multiply ;
+    mix-blend-mode: multiply;
 }
 
 
 
-.hi{
+.hi {
     margin: 140px 0px 0px 15px
 }
 
-.loadingpage{
+.loadingpage {
     margin: 0px 0px -15px 0px;
-}                /* LOADING PAGE - START */
-
-.loadingpage hr{
-    margin-top: 100px;
-}             /* LOADING PAGE - END */
-
-
-
-.subtitle{
-    margin: 18px 0px 30px 0px;
-}            /* PROJECT LIST - START */
-
-.subtitle2{
-    margin: 25px 0px 30px 0px;
-}   
-
-.subtitle p{
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
 }
 
-.subtitleBB{
+/* LOADING PAGE - START */
+
+.loadingpage hr {
+    margin-top: 100px;
+}
+
+/* LOADING PAGE - END */
+
+
+
+
+/* PROJECT LIST - START */
+.subtitle {
+    margin: 18px 0px 30px 0px;
+}
+
+.subtitle2 {
+    margin: 25px 0px 30px 0px;
+}
+
+.subtitle3 {
+    margin: 25px 0px 30px 0px;
+}
+
+.subtitleBB {
     margin-top: 15px;
     margin-bottom: 50px;
 }
 
-.hiddenimg{
+.hiddenimg {
     visibility: hidden;
     display: none;
 }
 
-#logo{
+#logo {
     margin: 40px 0px 0px -100px;
 }
 
-.orangeborder{
+.orangeborder {
     line-height: 200px;
 }
 
@@ -272,19 +288,21 @@ hr{
     margin: 150px 0px -15px 0px;
 }
 
-.FirstProj hr{
+.FirstProj hr {
     margin-top: -90px;
 }
+
+
 
 /* .jellybabyPL{
     margin: 150px 0px -15px 0px;
 } */
 
-.jellybabyPL hr{
+.jellybabyPL hr {
     margin-top: -90px;
 }
 
-.imageBox{
+.imageBox {
     position: fixed;
     left: 45%;
     height: auto;
@@ -294,30 +312,35 @@ hr{
     padding: 5px;
     z-index: -3;
     margin: 120px 0px 0px 0px;
-    padding: 10px;  
-} 
+    padding: 10px;
+}
 
-.IBHR hr{
+.IBHR hr {
     width: 72%;
     margin-top: -90px;
-}            /* PROJECT LIST - END */
+}
 
 
+/* PROJECT LIST - END */
 
-.itsme{
-    margin-top: -400px; 
-}             /* ABOUT PAGE - START */
 
-.itsme hr{
+.itsme {
+    margin-top: -400px;
+}
+
+
+/* ABOUT PAGE - START */
+
+.itsme hr {
     width: 100%;
     margin-top: -70px;
 }
 
-.itsme h1{
+.itsme h1 {
     line-height: 130px;
 }
 
-.about{
+.about {
     position: absolute;
     margin: -680px 0px 0px 280px;
     z-index: -4;
@@ -329,66 +352,61 @@ hr{
     z-index: -2;
 }
 
-.meimg img{
+.meimg img {
     height: 630px;
     left: 0px;
 }
 
-.smallHR{
+.smallHR {
     position: relative;
-    margin-top: 473px;   
+    margin-top: 473px;
 }
 
-.resume a{
-    font-weight:700;
+.resume a {
+    font-weight: 700;
 }
 
-.MeDescription{
+.MeDescription {
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
-.Contact{
+.Contact {
     font-weight: bold;
 }
 
-.MeDescription a{
+.MeDescription a {
     text-decoration: underline;
 }
 
-.MeDescription a:hover{
+.MeDescription a:hover {
     color: #8800FF !important;
 }
 
-.social1{ 
+.social1 {
     padding-left: 15px;
     padding-top: 3px;
     height: auto;
     width: 50px;
 }
 
-.social2{
+.social2 {
     padding-left: 7px;
     height: auto;
-    width: 50px;
-}             /* ABOUT PAGE - END */
+    width: 51px;
+}
+
+.social3 {
+    padding-left: 6px;
+    height: auto;
+    width: 42px;
+    margin-top: 3px;
+}
+
+/* ABOUT PAGE - END */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.JBp1{
+.JBp1 {
     position: absolute;
     left: 45%;
     height: auto;
@@ -397,42 +415,44 @@ hr{
     z-index: -3;
     margin: 120px 0px 0px 0px;
     padding: 10px;
-}              /* JELLY BABY PAGE - START */
+}
 
-.jellybaby{
+/* JELLY BABY PAGE - START */
+
+.jellybaby {
     margin: 150px 0px 0px 0px;
 }
 
-.jellybaby hr{
+.jellybaby hr {
     margin-top: -98px;
 }
 
-.CAY{
+.CAY {
     margin-top: 0px;
     margin-bottom: 150px;
 }
 
-.CAY li{
+.CAY li {
     font-family: 'Roboto', sans-serif;
     line-height: 27px;
 }
 
-.CAY p{
+.CAY p {
     font-family: 'Roboto', sans-serif;
     line-height: 27px;
 }
 
-.JBvideo{
+.JBvideo {
     padding: 40px 0px 40px 0px;
     background-color: black;
     margin-bottom: 30px;
 }
 
-.JBdescription{
+.JBdescription {
     margin-bottom: 30px;
 }
 
-.img-12{
+.img-12 {
     margin-top: 60px;
     position: absolute;
     left: 0;
@@ -440,42 +460,42 @@ hr{
     width: 100%;
 }
 
-#poster{
+#poster {
     margin-top: 45px;
 }
 
-.JBposter img{
+.JBposter img {
     max-width: 100%;
     height: auto;
 }
 
-.packaging{
+.packaging {
     margin-top: 30px;
     margin-bottom: 10px;
     padding-right: 100px;
 }
 
-.Production{
+.Production {
     margin-top: 100px;
 }
 
-#carouselExampleIndicators{
+#carouselExampleIndicators {
     margin-top: 20px;
 }
 
-.JBpackaging1 img{
+.JBpackaging1 img {
     max-width: 80%;
     height: auto;
     margin-left: 395px;
 }
 
-.JBpackaging2 img{
+.JBpackaging2 img {
     max-width: 80%;
     height: auto;
     margin-bottom: 30px;
 }
 
-#stills{
+#stills {
     padding: 20px 0px 0px 0px;
 }
 
@@ -487,54 +507,58 @@ hr{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin-bottom: 50px; 
-}      /* JELLY BABY PAGE - END */
+    margin-bottom: 50px;
+}
 
-   
+/* JELLY BABY PAGE - END */
 
-.iadttitle2{
+.iadttitle2 {
     margin: 150px 0px 0px 0px;
-}          /* IADT MICROSITE */
+}
 
-.iadttitle2 hr{
+/* IADT MICROSITE */
+
+.iadttitle2 hr {
     margin-top: -98px;
 }
 
-.iadttitle2 h1{
+.iadttitle2 h1 {
     line-height: 165px;
 }
 
-.CAYIADT{
+.CAYIADT {
     margin-top: 0px;
     margin-bottom: 10px;
 }
 
-.CAYIADT li{
+.CAYIADT li {
     font-family: 'Roboto', sans-serif;
     line-height: 27px;
 }
 
-.CAYIADT p{
+.CAYIADT p {
     font-family: 'Roboto', sans-serif;
     line-height: 27px;
 }
 
-.IADTdescription{
+.IADTdescription {
     margin-bottom: 0px;
     margin-top: 20px;
 }
 
-.IADTvideo{
+.IADTvideo {
     padding: 40px 0px 0px 0px;
-    margin-bottom: 50px;  
+    margin-bottom: 50px;
 }
 
-.IADTphonepic{
+.IADTphonepic {
     margin-bottom: 100px;
     margin-top: 60px;
-}        /* IADT MICROSITE -END */
+}
 
-.IBp1{
+/* IADT MICROSITE -END */
+
+.IBp1 {
     position: absolute;
     left: 45%;
     height: auto;
@@ -543,20 +567,22 @@ hr{
     z-index: -3;
     margin: 80px 0px 0px 0px;
     padding: 10px;
-}             /* IRISH BEEF - START */
+}
 
-.IBstrip{
+/* IRISH BEEF - START */
+
+.IBstrip {
     padding: 0px;
     margin-bottom: 50px;
     margin-top: 20px;
 }
 
-.IBlogo{
+.IBlogo {
     margin-top: 25px;
     margin-bottom: 30px;
 }
 
-#myCarousel .carousel-item{
+#myCarousel .carousel-item {
     height: 70vh;
     min-height: 100px;
     background: no-repeat center center scroll;
@@ -564,72 +590,78 @@ hr{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin-bottom: 30px; 
-}  
+    margin-bottom: 30px;
+}
 
-.CAYIB{
+.CAYIB {
     margin-top: 0px;
     margin-bottom: 100px;
 }
 
-.CAYIB li{
+.CAYIB li {
     font-family: 'Roboto', sans-serif;
     line-height: 27px;
 }
 
-.CAYIB p{
+.CAYIB p {
     font-family: 'Roboto', sans-serif;
     line-height: 27px;
 }
 
-.signages{
+.signages {
     margin-bottom: 70px;
 }
 
-.booklet1{
-    margin-top: 10px; 
+.booklet1 {
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 
-.materials{
+.materials {
     margin-top: 70px;
     margin-bottom: 20px;
 }
 
-.computer{
+.computer {
     margin-top: 30px;
 }
 
-.exhibition{
+.exhibition {
     margin-top: 27px;
     margin-bottom: 40px;
 }
 
-.PreviousNext a:hover{
+.PreviousNext a:hover {
     color: #8800FF !important;
 }
 
-.nextButton{
+.nextButton {
     margin-top: -3px;
     margin-bottom: 50px;
 }
 
-.nextButton p{
+.nextButton p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 900;
 }
 
-.nextButton a{
+.nextButton a {
     color: black;
-}        /* IRISH BEEF - END */
+}
 
+/* IRISH BEEF - END */
+
+
+.commingsoon {
+    margin: 350px 0px 0px 0px;
+}
 
 
 /*____________________________________MOBILE*/
 
 @media screen and (max-width: 450px) {
-    
+
     .overlay {
         height: 100%;
         width: 100%;
@@ -641,239 +673,282 @@ hr{
         overflow-y: hidden;
         transition: 0.5s;
     }
-    
+
     .overlay a {
         font-size: 60px;
         line-height: 80px;
         margin-left: 40px;
     }
-    
-    .navbar-brand{
-        margin: 5px 0px 0px 0px
-    }   
-    
+
+    .navbar-brand {
+        margin: 10px 0px 0px 0px
+    }
+
     .custom-toggler.navbar-toggler {
         position: absolute;
         right: 25px;
-        top: 15px; 
-    } 
-    
+        top: 15px;
+    }
+
     .closebtn {
-        visibility:visible;
-        display:table;
-    }  
+        visibility: visible;
+        display: table;
+    }
 
     .navbar-light .navbar-nav .nav-link {
-        color: rgba(255,255,255, 1);
+        color: rgba(255, 255, 255, 1);
     }
-    
-    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-        color: rgba(255,255,255, 1);
+
+    .navbar-light .navbar-nav .active > .nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show > .nav-link {
+        color: rgba(255, 255, 255, 1);
         font-weight: 900;
     }
-    
-    .nav-link{
+
+    .nav-link {
         margin: 0px 50px 0px 0px;
         font-size: 18px;
         color: white;
     }
-    
-    .secondarynav{
+
+    .secondarynav {
         visibility: hidden;
         display: none;
     }
 
-    .longstriptop{
+    .longstriptop {
         visibility: none;
         display: none;
     }
-    
-    .navbar-nav{
-        flex-direction:column ;
-        
-    }
-    
-    .navbar{
-        margin-left: 10px;
-    }
-    
-    .navbar-nav{
-        margin-top: 50%;
-    }
-    
-    .nav-item{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .nav-item1{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .nav-bg-white{
-        background-color: rgb(255,255,255);
-        background-color: rgba(255,255,255, 0.5);
-        margin-left: -5px;
-    }
-    
-    .Justyna h5{  
-        font-family: 'Roboto', sans-serif;
-        font-weight:100;
+
+    .navbar-nav {
+        flex-direction: column;
+
     }
 
-    .Liska{
+    .navbar {
+        margin-left: 0px;
+    }
+
+    .navbar-nav {
+        margin-top: 50%;
+    }
+
+    .nav-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-item1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .nav-bg-white {
+        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-left: -5px;
+    }
+
+    .Justyna h5 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+
+    }
+
+    .Liska {
         font-weight: 900;
         margin-left: 0px;
     }
-    
-    h5{
-        font-size: 30px;
+
+    h5 {
+        font-size: 20px;
     }
-    
-    p, li, h3{
+
+    p,
+    li,
+    h3 {
         font-size: 16px;
         line-height: 24px;
     }
-    
-    h1{
+
+    h1 {
         font-size: 63px;
         display: inline;
     }
     
-    hr{
+    h2 {
+        font-size: 30px;
+        font-weight: 900;
+        color: black;
+        z-index: 0;
+        opacity: 0.85;
+        line-height: 60px;
+    }
+
+    hr {
         display: block;
         margin: -100px 0px 0px 0px;
-        border-width: 60px;
+        border-width: 50px;
         border-color: #8800FF;
         width: 80%;
         mix-blend-mode: normal;
     }
-    
-    
-    /*  LOADING PAGE */
-    
-    .loadingpage{
-        margin: 110px 0px -15px 0px;
-    
-    }              
 
-    .loadingpage hr{
-        margin-top: -150px;
-    }  
-    
-    .loadingpage h1{
-        line-height: 60px;
-        
+
+    /*  LOADING PAGE */
+    .loadingpage {
+        margin: -10px 0px 50px 0px;
     }
-    
-    .hiddenimg{
-        visibility:visible;
-        display:block;
-        margin-top: 70px;
+
+    .loadingpage hr {
+        margin-top: 25px;
+    }
+
+    .loadingpage h1 {
+        line-height: 65px;
+    }
+
+    .hiddenimg {
+        visibility: visible;
+        display: block;
+        margin-top: 0px;
+        z-index: -2;
+    }
+
+    .hi {
+        margin: -80px 0px 0px 14px;
+
+    }
+
+    .hi h1 {
+        line-height: 65px;
     }
 
     /*  LOADING PAGE - END */
-    
-    
     /*  PROJECTS LIST */
     
-    .IADTtitle h1{
-        line-height: 60px;
-       margin-bottom: 100px;
+    .emptydiv {
+        margin-top: 200px;
     }
     
-    .IADTtitle hr{
-        margin-top: -35px;
-        margin-left: -20px;
-    }
-    
-    .FirstProj{
-        margin: 80px 0px 0px 0px;
+    .IADTtitle h1 {
+        line-height: 63px;
+        margin-bottom: 0px;
     }
 
-    .FirstProj hr{
-        margin-top: -90px;
+    .IADTtitle hr {
+        margin-top: -37px;
         margin-left: -20px;
-    }
-    
-    .jellybabyPL{
-        margin: 80px 0px 0px 0px;
     }
 
-    .jellybabyPL hr{
-        margin-top: -90px;
+    
+    .FirstProj h1{
+       line-height: 0px;
+    }
+    
+    .FirstProj hr {
+        margin-top: -30px;
         margin-left: -20px;
     }
     
-    .IBHR{
-        margin-top: -40px;
+    .OPoster h1{
+        line-height: 63px;
     }
     
-    .IBHR hr{
-        margin-top: -90px;
+    .OPoster hr{
+        margin-top: -37px;
+        margin-left: -20px;
+    }
+
+    .jellybabyPL {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .jellybabyPL hr {
+        margin-top: -37px;
+        margin-left: -20px;
+    }
+    
+    .jellybabyPL h1{
+        line-height: 63px;
+    }
+
+    .IBHR {
+        margin-top: 0px;
+    }
+    
+    .IBHR h1{
+        line-height: 63px;
+    }
+
+    .IBHR hr {
+        margin-top: -37px;
         margin-left: -20px;
         width: 80%;
     }
-    
-    .imageBox{
+
+    .imageBox {
         visibility: hidden;
         display: none;
     }
-    
-    .subtitle{
-        margin: -20px 0px 10px 0px;
-    }  
-    
-    .subtitle2{
-        margin: 35px 0px 10px 0px;
-    }  
-    
-    .subtitleBB{
-        margin-top: -20px;
-        margin-bottom: 50px;
+
+    .subtitle {
+        margin: 20px 0px 10px 0px;
+    }
+
+    .subtitle2 {
+        margin: 0px 0px 0px 0px;
     }
     
+    .subtitle3 {
+        margin: 20px 0px 10px 0px;
+    }
+
+    .subtitleBB {
+        margin: 20px 0px 10px 0px;
+    }
+
     /*  PROJECTS LIST - END */
-    
     /*  ABOUT  */
-    
     .meimg {
         margin: 70px 0px 50px 0px;
         z-index: -2;
         padding: 0px;
     }
 
-    .meimg img{
-        width: 414px;
+    .meimg img {
+        width: 375px;
         height: auto;
     }
-    
-    .itsme{
-        margin-top: -80px; 
-    }             
 
-    .itsme hr{
+    .itsme {
+        margin-top: -80px;
+    }
+
+    .itsme hr {
         width: 90%;
         margin-top: -45px;
         margin-left: -15px
     }
 
-    .itsme h1{
+    .itsme h1 {
         line-height: 50px;
     }
-    
-    .smallHR{
+
+    .smallHR {
         visibility: hidden;
         display: none;
     }
-    
-    .MeDescription{
+
+    .MeDescription {
         margin-top: 15px;
         margin-bottom: 0px;
     }
-    
-    .social1{ 
+
+    .social1 {
         padding-left: 15px;
         padding-top: 3px;
         height: auto;
@@ -881,19 +956,23 @@ hr{
         margin-right: 5px;
     }
 
-    .social2{
+    .social2 {
         padding-left: 7px;
         height: auto;
         width: 70px;
         margin-bottom: 30px;
-    } 
-    
+    }
+
+    .social3 {
+        padding-left: 7px;
+        height: auto;
+        width: 60px;
+        margin-top: 3px;
+    }
+
     /*  ABOUT -END  */
-    
-    
     /* JELLY BABY */
-    
-    .JBp1{
+    .JBp1 {
         margin-top: 70px;
         position: absolute;
         left: 0;
@@ -902,134 +981,128 @@ hr{
         width: 100%;
         padding: 0px;
     }
-    
-    .jellybaby{
+
+    .jellybaby {
         margin: 200px 0px 0px 0px;
     }
 
-    .jellybaby hr{
+    .jellybaby hr {
         margin-top: -100px;
         margin-left: -20px;
     }
-    
-    .CAY{
+
+    .CAY {
         position: inherit;
         margin: 0px 0px 0px 0px;
     }
 
-    .CAY li{
+    .CAY li {
         line-height: 24px;
     }
 
-    .CAY p{
+    .CAY p {
         line-height: 24px;
     }
-    
-    .JBdescription{
+
+    .JBdescription {
         margin-bottom: 0px;
-    }    
-    
-    iframe{
+    }
+
+    iframe {
         width: 300px;
         height: auto;
         margin-bottom: 0px;
-    }  
-    
-    .JBvideo{
+    }
+
+    .JBvideo {
         padding: 20px 0px 20px 0px;
         margin-bottom: 30px;
     }
-    
-    .JBpackaging1 img{
+
+    .JBpackaging1 img {
         max-width: 90%;
         height: auto;
         margin-left: 0px;
     }
 
-    .JBpackaging2 img{
+    .JBpackaging2 img {
         max-width: 90%;
         height: auto;
         margin-bottom: 30px;
     }
-  
-    .JBposter{
+
+    .JBposter {
         left: 50%;
         transform: translate(-50%, 0%);
     }
-    
-    #poster{
+
+    #poster {
         margin-top: 0px;
     }
-    
-    .packaging{
+
+    .packaging {
         margin-top: 15px;
         margin-bottom: 0px;
     }
-    
-    #carouselExampleIndicators{
+
+    #carouselExampleIndicators {
         margin-top: 0px;
     }
-    
-    .carousel-item{
+
+    .carousel-item {
         height: 200px;
         margin-bottom: 20px;
     }
-    
-    .carousel-control-prev-icon{
-       margin-top: -30px;
-    }
-    
-    .carousel-control-next-icon{
+
+    .carousel-control-prev-icon {
         margin-top: -30px;
     }
-    
-    .Production{
+
+    .carousel-control-next-icon {
+        margin-top: -30px;
+    }
+
+    .Production {
         margin-top: 0px;
     }
-    
+
     /* JELLY BABY - END */
-    
-    
     /* IADT MICROSITE */
-    
-    .iadttitle2{
+    .iadttitle2 {
         margin: 230px 0px 40px 0px;
     }
-    
-    .iadttitle2 hr{
+
+    .iadttitle2 hr {
         margin-left: -15px;
     }
-    
-    .iadttitle2 h1{
+
+    .iadttitle2 h1 {
         line-height: 60px;
     }
-    
-    .CAYIADT p{
+
+    .CAYIADT p {
         line-height: 24px;
     }
-    
-    .IADTvideo iframe{
+
+    .IADTvideo iframe {
         width: 414px;
         height: 300px;
         margin: -20px 0px 0px 0px;
     }
-    
-    .IADTphonepic{
-       left: 50%;
+
+    .IADTphonepic {
+        left: 50%;
         transform: translate(-50%, 0%);
         margin-bottom: 15px;
     }
-    
-    .IADTdescription{
+
+    .IADTdescription {
         margin-top: 0px;
     }
-    
+
     /* IADT MICROSITE - END */
-    
-    
     /* IRISH BEEF */
-    
-    .IBp1{
+    .IBp1 {
         margin-top: 60px;
         position: absolute;
         left: 0;
@@ -1038,83 +1111,76 @@ hr{
         width: 100%;
         padding: 0px;
     }
-    
-   .IBstrip{
+
+    .IBstrip {
         margin-bottom: 20px;
-       margin-top: 10px;
+        margin-top: 10px;
     }
-    
-    .materials{
+
+    .materials {
         margin-top: 20px;
     }
-    
-    .grocerybag{
+
+    .grocerybag {
         margin-bottom: 20px;
     }
 
-    .computer{
+    .computer {
         margin-top: 20px;
     }
-    
-    .booklet1{ 
+
+    .booklet1 {
         margin-bottom: 30px;
     }
-    
-    .exhibition{
+
+    .exhibition {
         margin-top: 0px;
     }
-    
-    #myCarousel .carousel-item{
+
+    #myCarousel .carousel-item {
         height: 35vh;
-    }  
-    
-    .signages{
+    }
+
+    .signages {
         margin-bottom: 15px;
         left: 50%;
         transform: translate(-50%, 0%);
     }
-    
-    .CAYIB{
+
+    .CAYIB {
         position: inherit;
         margin: 0px 0px 0px 0px;
     }
 
-    .CAYIB li{
+    .CAYIB li {
         line-height: 24px;
     }
 
-    .CAYIB p{
+    .CAYIB p {
         line-height: 24px;
     }
-    
-    
+
+
     /* IRISH BEEF - END */
-    
-    
-    .nextButton{
+    .nextButton {
         visibility: hidden;
         clear: both;
         float: left;
         margin: 10px auto 5px 20px;
         display: none;
     }
-    
-    .arrow{
-        margin: 0px 280px 20px 20px;
+
+    .arrow {
+        margin: 0px 245px 20px 20px;
     }
-    
-    .arrow2{
+
+    .arrow2 {
         margin: 0px 0px 0px 20px;
     }
-   
- 
-    
-    
+
+    .commingsoon {
+    margin: 250px 0px 0px 0px;
+    }
+
+
 }
-    
-    
-    
-    
-
-
-
