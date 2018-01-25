@@ -406,6 +406,58 @@ hr {
 /* ABOUT PAGE - END */
 
 
+
+/* OPERA POSTER - START */
+
+.OPhomeimg {
+    position: absolute;
+    left: 40%;
+    height: auto;
+    width: 50%;
+    padding: 5px;
+    z-index: -3;
+    margin: 120px 0px 0px 0px;
+    padding: 10px;
+}
+
+.operaposter {
+    margin: 180px 0px 0px 0px;
+}
+
+.operaposter hr {
+    margin-top: -98px;
+}
+
+.operaposter h1{
+    line-height: 185px;
+}
+
+.CAYop{
+    margin: 0px 0px 90px 0px;
+}
+
+.frogposter{
+    margin-bottom: 20px;
+}
+
+.frogbrochure{
+    margin-top: -200px;
+}
+
+.Opbrochurematerial{
+    margin-top: 100px;
+}
+
+.yellowbrochure{
+    margin: 40px 0px 100px 0px;
+}
+
+/* OPERA POSTER - END */
+
+
+
+/* JELLY BABY PAGE - START */
+
 .JBp1 {
     position: absolute;
     left: 45%;
@@ -416,8 +468,6 @@ hr {
     margin: 120px 0px 0px 0px;
     padding: 10px;
 }
-
-/* JELLY BABY PAGE - START */
 
 .jellybaby {
     margin: 150px 0px 0px 0px;
