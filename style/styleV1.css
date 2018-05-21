@@ -242,6 +242,8 @@ hr {
     margin: 0px 0px -15px 0px;
 }
 
+
+
 /* LOADING PAGE - START */
 
 .loadingpage hr {
@@ -268,7 +270,7 @@ hr {
 
 .subtitleBB {
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .hiddenimg {
@@ -292,12 +294,6 @@ hr {
     margin-top: -90px;
 }
 
-
-
-/* .jellybabyPL{
-    margin: 150px 0px -15px 0px;
-} */
-
 .jellybabyPL hr {
     margin-top: -90px;
 }
@@ -319,6 +315,8 @@ hr {
     width: 72%;
     margin-top: -90px;
 }
+
+
 
 
 /* PROJECT LIST - END */
@@ -353,13 +351,20 @@ hr {
 }
 
 .meimg img {
-    height: 630px;
-    left: 0px;
+    height: 620px;
+    margin-left: -50px;
+    
 }
 
-.smallHR {
+.smallhrcontaner {
     position: relative;
-    margin-top: 473px;
+}
+
+.smallHR{
+    position: absolute;
+    left: 200px;
+    z-index: -2;
+    top: 1062px;
 }
 
 .resume a {
@@ -404,6 +409,72 @@ hr {
 }
 
 /* ABOUT PAGE - END */
+
+
+
+/* ISTD - START */
+
+.ISTDtext1{
+    margin-bottom: 70px;
+}
+
+.ISTDtext4{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.ISTDtext4 h4{
+    margin: 10 0 40 0;
+}
+
+.ISTDtext5{
+    padding-left: 15px;
+}
+
+.ISTDtext6{
+    margin: 0 0 50 0;
+}
+
+.ISTDtext7{
+    margin: 20 0 100 0;
+}
+
+.ISTDtext7 h4{
+    margin-bottom: 30px;
+}
+
+.ISTDtext8{
+    margin: 30 0 20 0;
+}
+
+.Outcome{
+    margin: 50 0 0 0;
+}
+
+.text5margin{
+    margin: 0 0 70 0;
+}
+
+.ISTDpic1{
+    position: absolute;
+    left: 45%;
+    height: auto;
+    width: 43%;
+    padding: 5px;
+    z-index: -3;
+    margin: 120px 0px 0px 0px;
+    padding: 10px;
+}
+
+.ISTDpic2{
+    margin: 30 0 30 0;
+}
+
+
+
+
+
+/* ISTD - START */
 
 
 
@@ -704,7 +775,7 @@ hr {
 
 
 .commingsoon {
-    margin: 350px 0px 0px 230px;
+    margin: 350px 0px 300px 230px;
 }
 
 
