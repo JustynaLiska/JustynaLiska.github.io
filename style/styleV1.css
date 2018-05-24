@@ -278,8 +278,8 @@ hr {
     display: none;
 }
 
-#logo {
-    margin: 40px 0px 0px -100px;
+.logo{
+    margin: 25 0 0 25;
 }
 
 .orangeborder {
