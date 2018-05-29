@@ -414,6 +414,10 @@ hr {
 
 /* ISTD - START */
 
+.mother{
+    position: relative;
+}
+
 .ISTDtext1{
     margin-bottom: 70px;
 }
@@ -457,9 +461,8 @@ hr {
 
 .ISTDpic1{
     position: absolute;
-    left: 45%;
     height: auto;
-    width: 43%;
+    right: -200px;
     padding: 5px;
     z-index: -3;
     margin: 120px 0px 0px 0px;
@@ -482,9 +485,8 @@ hr {
 
 .OPhomeimg {
     position: absolute;
-    left: 40%;
     height: auto;
-    width: 50%;
+    right: -200px;
     padding: 5px;
     z-index: -3;
     margin: 120px 0px 0px 0px;
@@ -531,9 +533,8 @@ hr {
 
 .JBp1 {
     position: absolute;
-    left: 45%;
     height: auto;
-    width: 50%;
+    right: -200px;
     padding: 5px;
     z-index: -3;
     margin: 120px 0px 0px 0px;
@@ -679,14 +680,15 @@ hr {
 
 /* IADT MICROSITE -END */
 
+
+
 .IBp1 {
     position: absolute;
-    left: 45%;
     height: auto;
-    width: 45%;
+    right: -200px;
     padding: 5px;
     z-index: -3;
-    margin: 80px 0px 0px 0px;
+    margin: 120px 0px 0px 0px;
     padding: 10px;
 }
 
